@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules.*
+.*/styled-components/dangerfile.js.*
+.*/styled-components/lib/models/StyleSheet.js.flow.*
+.*/styled-components/src/.*
+.*/stylelint/.*
+.*/bcryptjs/src/.*
+.*/fbjs/lib/partitionObjectByKey.js.flow.*
+
+[include]
+
+[libs]
+./flow-typed
+
+[options]
