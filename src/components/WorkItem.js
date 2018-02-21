@@ -5,6 +5,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import Technologies from './Technologies';
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -46,18 +48,6 @@ const Description = styled.div`
   margin: 5px 0 5px 3px;
 `;
 
-const Technologies = styled.div`
-  display: flex;
-  margin-left: 3px;
-`;
-
-const Technology = styled.div`
-  font-family: 'Inconsolata', monospace;
-  font-size: 15px;
-  color: ${props => props.theme.mainLighter};
-  margin-right: 15px;
-`;
-
 type Props = {
   workExperience: {
     employer: string,
@@ -89,11 +79,7 @@ class WorkItem extends Component<Props> {
         {workExperience.description.map(description => (
           <Description key={description}>{description}</Description>
         ))}
-        <Technologies>
-          {workExperience.technologies.map(technology => (
-            <Technology key={technology}>{technology}</Technology>
-          ))}
-        </Technologies>
+        <Technologies values={workExperience.technologies} />
       </Wrapper>
     );
   }
