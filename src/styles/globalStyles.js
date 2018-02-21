@@ -6,7 +6,7 @@ import { injectGlobal } from 'styled-components';
 import theme from './theme';
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:400,700');
 
   body {
     font-family: 'Lato', sans-serif;

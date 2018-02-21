@@ -41,7 +41,8 @@ const Technologies = styled.div`
 `;
 
 const Technology = styled.div`
-  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
   color: ${props => props.theme.mainLighter};
   margin-right: 15px;
 `;
