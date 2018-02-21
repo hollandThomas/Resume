@@ -25,10 +25,10 @@ class Education extends Component<*, State> {
         course: 'B.Sc. Informatik',
         from: 'Sep / 2015',
         to: 'Aug / 2018',
-        thesisDescription: `Entwicklung einer Web-App und iOS-App zur grafischen
-                            Programmierung kontextsensitiver Applikationen in
-                            React, React-Native, GraphQL, Apollo, Node.js und
-                            MongoDB.`,
+        thesisDescription: `Agile Entwicklung einer Web- und iOS-App zur
+                            visuellen Programmierung kontextsensitiver
+                            Apps in React, React-Native, GraphQL, Apollo,
+                            Node.js und MongoDB.`,
       },
       {
         university: 'RWTH Aachen',

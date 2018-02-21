@@ -39,10 +39,12 @@ class SideProjects extends Component<*, State> {
       {
         name: 'Lebenslauf',
         description: [
-          `Dieser Lebenslauf ist in React.js geschrieben. Der Code steht auf
-           meiner Github Seite.`,
+          `Dieser Lebenslauf ist in React und der CSS-in-JS Bibliothek
+           styled-components geschrieben. Der Code steht auf meiner Github
+           Seite.`,
         ],
         technologies: ['React', 'styled-components'],
+        link: 'https://github.com/hollandThomas/Resume',
       },
     ],
   };

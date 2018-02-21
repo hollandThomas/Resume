@@ -25,7 +25,7 @@ class Work extends Component<*, State> {
       {
         employer: 'ING2BIZ GmbH',
         cities: ['Aachen, NRW', 'Peking, China', 'Shanghai, China'],
-        position: 'Full Stack Developer (Praktikum)',
+        position: 'Full Stack Entwickler (Praktikum)',
         from: 'Aug / 2014',
         to: 'Feb / 2015',
         description: [
@@ -42,7 +42,7 @@ class Work extends Component<*, State> {
       {
         employer: 'Norgren GmbH',
         cities: ['Alpen, NRW'],
-        position: 'Frontend Developer (Aushilfe)',
+        position: 'Softwareentwickler (Aushilfe)',
         from: 'Jun / 2015',
         to: 'Aug / 2015',
         description: [
