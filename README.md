@@ -10,7 +10,7 @@ then run it
 
 and you will find it at _localhost:3006_
 
-## Technology used
+## Built with
 
 * This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 * My favorite CSS-in-JS library 💅 [styled-components](https://github.com/styled-components/styled-components).

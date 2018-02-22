@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const Title = styled.div`
   font-size: 22px;
   color: ${props => props.theme.gray};
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 `;
 
 const Underline = styled.div`
